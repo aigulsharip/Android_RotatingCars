@@ -1,0 +1,146 @@
+//Task Bronze: Add one more cars and make it rotates as well
+
+button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               
+                Drawable temp1 = car1.getDrawable();
+                Drawable temp2 = car2.getDrawable();
+                Drawable temp3 = car3.getDrawable();
+                Drawable temp4 = car4.getDrawable();
+
+                car1.setImageDrawable(temp4);
+                car2.setImageDrawable(temp1);
+                car3.setImageDrawable(temp2);
+                car4.setImageDrawable(temp3);
+            }
+        });
+
+
+// Task Silver
+    /*
+    car1.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Drawable temp1 = car1.getDrawable();
+            Drawable temp2 = car2.getDrawable();
+            Drawable temp3 = car3.getDrawable();
+            Drawable temp4 = car4.getDrawable();
+
+            car1.setImageDrawable(temp2);
+            car2.setImageDrawable(temp3);
+            car3.setImageDrawable(temp4);
+            car4.setImageDrawable(temp1);
+
+        }
+
+    });
+
+        car4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Drawable temp1 = car1.getDrawable();
+                Drawable temp2 = car2.getDrawable();
+                Drawable temp3 = car3.getDrawable();
+                Drawable temp4 = car4.getDrawable();
+
+                car1.setImageDrawable(temp4);
+                car2.setImageDrawable(temp1);
+                car3.setImageDrawable(temp2);
+                car4.setImageDrawable(temp3);
+
+            }
+
+        });
+
+
+     */
+
+
+
+
+
+
+    /*
+    public void start(View v) {
+        Timer t = new Timer();
+        TimerTask tt = new TimerTask() {
+            @Override
+            public void run() {
+                Drawable temp1 = car1.getDrawable();
+                Drawable temp2 = car2.getDrawable();
+                Drawable temp3 = car3.getDrawable();
+                Drawable temp4 = car4.getDrawable();
+
+                car1.setImageDrawable(temp4);
+                car2.setImageDrawable(temp1);
+                car3.setImageDrawable(temp2);
+                car4.setImageDrawable(temp3);
+            }
+
+
+        };
+        t.schedule(tt, 0, 1000);
+
+    }
+
+     */
+
+
+    /*
+    public void start(View v)  {
+        new Timer().scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                Drawable temp1 = car1.getDrawable();
+                Drawable temp2 = car2.getDrawable();
+                Drawable temp3 = car3.getDrawable();
+                Drawable temp4 = car4.getDrawable();
+
+                car1.setImageDrawable(temp4);
+                car2.setImageDrawable(temp1);
+                car3.setImageDrawable(temp2);
+                car4.setImageDrawable(temp3);
+
+            }
+
+        }, 0, 1000);
+
+    }
+
+     */
+
+
+
+
+
+
+
+
+    /*
+    public void start(View v) {
+        Timer t = new Timer();
+        TimerTask tt = new TimerTask() {
+            @Override
+            public void run() {
+
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Drawable temp1 = car1.getDrawable();
+                        Drawable temp2 = car2.getDrawable();
+                        Drawable temp3 = car3.getDrawable();
+                        Drawable temp4 = car4.getDrawable();
+
+                        car1.setImageDrawable(temp4);
+                        car2.setImageDrawable(temp1);
+                        car3.setImageDrawable(temp2);
+                        car4.setImageDrawable(temp3);
+                    }
+                });
+            }
+        };
+        t.schedule(tt, 0, 1000);
+    }
+     */
+
